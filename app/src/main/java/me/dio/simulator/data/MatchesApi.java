@@ -9,5 +9,5 @@ import retrofit2.http.GET;
 public interface MatchesApi {
 
     @GET("matches.json")
-    Call<List<Match>> getMachtes();
+    Call<List<Match>> getMatches();
 }
