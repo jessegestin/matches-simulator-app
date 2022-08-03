@@ -2,6 +2,7 @@ package me.dio.simulator.ui;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
+import android.app.appsearch.exceptions.AppSearchException;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -66,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setupFloatingActionButton() {
+
         binding.fabSimulate.setOnClickListener(view -> {
             view.animate().rotationBy(360).setDuration(500).setListener(new AnimatorListenerAdapter() {
                 @Override
