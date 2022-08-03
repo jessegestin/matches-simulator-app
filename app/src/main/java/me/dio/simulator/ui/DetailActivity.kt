@@ -12,6 +12,8 @@ class DetailActivity : AppCompatActivity() {
         const val MATCH = "EXTRA_MATCH"
     }
 
+//Teste de DetailActivity
+
     private lateinit var binding: ActivityDetailBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
